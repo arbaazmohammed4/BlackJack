@@ -1,0 +1,8 @@
+C:\Users\MA65808\Desktop\vs\Ass4\Ass4\bin\Debug\Ass4.exe.config
+C:\Users\MA65808\Desktop\vs\Ass4\Ass4\bin\Debug\Ass4.exe
+C:\Users\MA65808\Desktop\vs\Ass4\Ass4\bin\Debug\Ass4.pdb
+C:\Users\MA65808\Desktop\vs\Ass4\Ass4\obj\Debug\Ass4.csproj.AssemblyReference.cache
+C:\Users\MA65808\Desktop\vs\Ass4\Ass4\obj\Debug\Ass4.csproj.SuggestedBindingRedirects.cache
+C:\Users\MA65808\Desktop\vs\Ass4\Ass4\obj\Debug\Ass4.csproj.CoreCompileInputs.cache
+C:\Users\MA65808\Desktop\vs\Ass4\Ass4\obj\Debug\Ass4.exe
+C:\Users\MA65808\Desktop\vs\Ass4\Ass4\obj\Debug\Ass4.pdb

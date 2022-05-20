@@ -1,0 +1,57 @@
+﻿@model WebApplication1.Models.shuffle
+
+
+<body>
+    <div align="center">
+        <input type="button" value="Dealer" /> <br />
+
+
+        @foreach (var dealer in ViewBag.Dealer)
+        {
+            <tr>
+                <td>@dealer</td>
+            </tr>
+        }
+        <br />
+        <h4>Sum of Cards = @ViewBag.SumDealer </h4>
+        <br />
+
+        @*@TempData.Peek("Stay")*@
+        @*@Html.Raw(@TempData.Peek("Stay").ToString());*@
+
+    </div>
+
+    <hr />
+
+    <div align="center">
+        <input type="button" value="Player" />  <br />
+
+        @foreach (var player in ViewBag.Player)
+        {
+            <tr>
+                <td>@player</td>
+            </tr>
+        }
+        <br />
+        <h4>Sum of Cards = @ViewBag.SumPlayer </h4>
+        <br />
+        <br />
+        @using (Html.BeginForm("HitButton", "Home", FormMethod.Post))
+        {
+            <input type="submit" value="Hit" />
+
+        }
+
+
+        @TempData.Peek("Hit")
+
+        @*@Html.Raw(@TempData.Peek("Hit").ToString());*@
+
+        @*@TempData.Peek("Sum")*@
+
+        @using (Html.BeginForm("StayButton", "Home", FormMethod.Post))
+        {
+            <input type="button" value="Stay" /> <br />
+        }
+    </div>
+</body>
